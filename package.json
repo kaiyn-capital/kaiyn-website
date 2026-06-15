@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@11.6.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +12,7 @@
     "lint": "biome check",
     "format": "biome format --write",
     "format:check": "biome format",
-    "check": "tsc --noEmit && biome check && biome format",
+    "check": "tsc --noEmit && biome check",
     "clean": "rm -rf .next .turbo out node_modules/.cache tsconfig.tsbuildinfo",
     "clean:all": "pnpm clean && rm -rf node_modules && pnpm install"
   },
@@ -46,10 +46,5 @@
     "@types/react-dom": "^19.2.3",
     "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "postcss@<8.5.10": ">=8.5.10"
-    }
   }
 }

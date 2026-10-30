@@ -1,9 +1,6 @@
 # 失衡 / Imbalance
 
 >   我们提到过价格只会以流动性和失衡区作为目标进行位移，上一个章节我们详细解释了流动性，这里我们要解释失衡的概念。
-
-
-
 -   当价格出现大幅度的位移（Displacement）时，我们可以认为此时聪明钱挟带大量资金介入市场。
 -   大量资金进场时，由于价格出现大幅度的位移，会导致一部分限价挂单无法有效成交（Inefficiency），导致特定区域出现流动性流动性失衡（Inbalance）。
 -   当流动性出现失衡时，聪明钱会引导价格回到失衡区域将遗留的订单成交（Rebalance）。
@@ -14,7 +11,6 @@
 这段叙述充分解释了 ICT/SMC 中「价格只以流动性和失衡区作为目标进行位移」的观念。
 
 如果聪明钱想要获得利润，那么只有两个动作要做：
-
 1.  掠夺投机钱的止损订单。
 2.  成交自己未能成交的订单。
 
@@ -30,12 +26,12 @@
 >
 >   别名：
 >
->   -   Imbalance (IMB)：失衡
->   -   Inefficiency：低效
->   -   Buyside Imbalance Sellside Inefficiency (BISI)：买方失衡卖方低效，即 +FVG。
->   -   Sellside Imbalance Buyside inefficiency (SIBI)：卖方失衡买方低效，即 -FVG。
->   -   Liquidity Void (LV)：流动性缺失。
->   -   Liquidity Gap (LG)：流动性缺口。
+> -   Imbalance (IMB)：失衡
+> -   Inefficiency：低效
+> -   Buyside Imbalance Sellside Inefficiency (BISI)：买方失衡卖方低效，即 +FVG。
+> -   Sellside Imbalance Buyside inefficiency (SIBI)：卖方失衡买方低效，即 -FVG。
+> -   Liquidity Void (LV)：流动性缺失。
+> -   Liquidity Gap (LG)：流动性缺口。
 
 
 
@@ -45,7 +41,7 @@
 
 ## 反向公允价值缺口 / Inversion Fair Value Gap（IFVG）
 
-当价格经过 FVG 时直接进行吞噬，不对这个 FVG 进行 Rebalance。则此处的订单流向会发生反转，此时我们称这个被吞噬的 FVG 为 
+当价格经过 FVG 时直接进行吞噬，不对这个 FVG 进行 Rebalance。则此处的订单流向会发生反转，此时我们称这个被吞噬的 FVG 为
 
 **反向公允价值缺口（Inversion Fair Value Gap）**。一般来说 IFVG 的效力会比 FVG 更强。
 
@@ -64,7 +60,6 @@
 ## Institutional Order Flow Entry Drill (IOFED)
 
 当行情极度强势时，可能会存在 FVG 不被有效填补的情况，我们称为 IOFED。IOFED 的出现必须满足以下两个条件：
-
 -   行情出现大幅度 Displacement 并形成 FVG。
 -   价格快速回填 FVG，且**回填幅度不超过 FVG 的 50%**。
 
@@ -88,10 +83,7 @@
 
 由于加密货币市场是 24/7 处于开盘状态的，这个现象在加密货币市场比较不常出现。但我们仍然可以透过观察 CME 期货缺口得到类似的效果。
 
->   -   CME 期货图表可以透过在 TradingView 搜索 BTC1!（比特币期货）、ETH1!（以太币期货）的方式查询。
->   -   类似的概念还有新日开盘缺口（New Day Open Gap, NDOG），但在加密货币市场中基本上用不到。
+> -   CME 期货图表可以透过在 TradingView 搜索 BTC1!（比特币期货）、ETH1!（以太币期货）的方式查询。
+> -   类似的概念还有新日开盘缺口（New Day Open Gap, NDOG），但在加密货币市场中基本上用不到。
 
 ![New Week Open Gap](/tutorial/ict-smc/img/03.%20Imbalance/New%20Week%20Open%20Gap.png)
-
-
-

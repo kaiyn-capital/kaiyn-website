@@ -6,12 +6,11 @@
 
 
 
-價格的移動不依賴於支撐與阻力，所謂支撐與阻力只是市場的假象。市場中價格的所有行為都由一隻看不見的手在背後進行操縱，而這隻「手」被稱為 ***銀行間價格傳遞演算法（Interbank Price Delivery Algorithm, IPDA）***。
+價格的移動不依賴於支撐與阻力，所謂支撐與阻力只是市場的假象。市場中價格的所有行為都由一隻看不見的手在背後進行操縱，而這隻「手」被稱為 **_銀行間價格傳遞演算法（Interbank Price Delivery Algorithm, IPDA）_**。
 
 
 
 價格在傳遞時存在四種狀態，分別為：
-
 -   **Expansion（擴張）**
 -   **Retracement（回撤）**
 -   **Consolidation（整理）**
@@ -25,7 +24,7 @@
 
 >   附圖為四種狀態的轉換關係。
 
- 
+
 
 ## Consolidation / 整理
 
@@ -40,14 +39,11 @@
 ![Consolidation](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Consolidation.png)
 
 >   附圖為標準的 Consolidation。
-
-
-
 -   我們可以在 Premium（EQ上方）或 BSL 被掠奪時尋找空單機會，在 Discount（EQ下方）或 SSL 被掠奪時尋找多單機會，跟隨造市商 Accumulation 的行為進行獲利。
 
 -   同時也可以發現 Consolidation range 被跌破時價格出現了大幅度的 Displacement，可以視為一個典型的 Expansion。
 
- 
+
 
 ## Expansion / 擴張
 
@@ -62,13 +58,10 @@
 ![Consolidation](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Expansion.png)
 
 >   附圖和前一張圖是同一張，為標準的 Consolidation 接續 Expansion。
-
-
-
 -   當價格接觸到 EQ ，或者尊重 EQ 附近的 OB 時，我們可以利用 EQ 附近的 OB 進場
 -   參與 Expansion 實際上是跟隨造市商進行 Price Delivery 的行為進行獲利。
 
- 
+
 
 ## Retracement / 回撤
 
@@ -82,13 +75,10 @@
 ![Retracement](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Retracement.png)
 
 >   附圖和前兩張圖是同一張，是一個典型的 Retracement。這裡可以看到價格在經歷擴張後展開低位震盪，隨即回撤至 FVG。
-
-
-
 -   我們可以在尊重 FVG 時，利用 FVG 進場。
 -   在 Retracement 結束時參與市場實際上是跟隨造市商延續 Price Delivery 的行為進行獲利。
 
- 
+
 
 ## Reversal / 反轉
 
@@ -101,23 +91,17 @@
 ![image-20240803055020917](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Reversal.png)
 
 >   附圖和前三張圖是同一張，為標準的 Reversal 結構。價格在掠奪低點的 BSL （同時觸及日線圖上的 Rejection）後向上進行拉升出現 MSS，後續完全否定前方的下跌趨勢，展開新一輪的上漲。
-
-
-
 -   我們可以利用結構的變化判斷 Reversal 是否發生。
 -   在確認 Reversal 出現時參與市場實際上是在跟隨期望 Price Delivery 的價格反轉。
 -   不要在價格未抵達 HTF POI 時賭行情的反轉。
 
- 
+
 
 ## 回顧
-
-
 
 ![image-20240803055020917](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/IPDA-example.png)
 
 這裡我們回顧一下整張圖，觀察 IPDA 在進行 Price Delivery 時的細節。
-
 1.   首先價格在區間開啟 Consolidation，在區間內來回進行波動進行吸籌。
 2.   價格在最後一次觸及 EQ 處的 OB 後開始 Expansion。
 3.   隨即再一次開始 Consolidation。
@@ -126,4 +110,3 @@
 6.   最後將掠奪 H4 流動性並將價格傳遞至日線 POI。
 7.   進行 Reversal並產生 MSS。
 8.   開啟新一輪傳遞。
-

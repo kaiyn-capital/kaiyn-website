@@ -6,12 +6,11 @@
 
 
 
-Price movement does not depend on support and resistance. So-called support and resistance are only market illusions. Every price movement in the market is controlled behind the scenes by an invisible hand, and that "hand" is called the ***Interbank Price Delivery Algorithm (IPDA)***.
+Price movement does not depend on support and resistance. So-called support and resistance are only market illusions. Every price movement in the market is controlled behind the scenes by an invisible hand, and that "hand" is called the **_Interbank Price Delivery Algorithm (IPDA)_**.
 
 
 
 There are four states of price delivery:
-
 -   **Expansion**
 -   **Retracement**
 -   **Consolidation**
@@ -25,7 +24,7 @@ Price delivery has only these four states, and price transitions between them. E
 
 >   The chart shows the transition relationship between the four states.
 
- 
+
 
 ## Consolidation
 
@@ -40,14 +39,11 @@ Price delivery has only these four states, and price transitions between them. E
 ![Consolidation](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Consolidation.png)
 
 >   The chart shows a standard Consolidation.
-
-
-
 -   We can look for shorts at Premium, above EQ, or when BSL is swept. We can look for longs at Discount, below EQ, or when SSL is swept. This allows us to profit by following the Market Maker's Accumulation behavior.
 
 -   We can also see that when the Consolidation range is broken to the downside, price produces a large Displacement, which can be viewed as a typical Expansion.
 
- 
+
 
 ## Expansion
 
@@ -62,13 +58,10 @@ Price delivery has only these four states, and price transitions between them. E
 ![Consolidation](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Expansion.png)
 
 >   This chart is the same as the previous one. It shows a standard Consolidation followed by Expansion.
-
-
-
 -   When price touches EQ or respects an OB near EQ, we can use that OB near EQ for entry.
 -   Participating in Expansion is essentially profiting by following the Market Maker's Price Delivery.
 
- 
+
 
 ## Retracement
 
@@ -82,13 +75,10 @@ Price delivery has only these four states, and price transitions between them. E
 ![Retracement](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Retracement.png)
 
 >   This chart is the same as the previous two charts. It shows a typical Retracement. Here we can see price entering low-level consolidation after Expansion, then retracing into the FVG.
-
-
-
 -   We can enter when price respects the FVG.
 -   Participating as Retracement ends is essentially profiting by following the Market Maker as it continues Price Delivery.
 
- 
+
 
 ## Reversal
 
@@ -101,23 +91,17 @@ Price delivery has only these four states, and price transitions between them. E
 ![image-20240803055020917](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/Reversal.png)
 
 >   This chart is the same as the previous three charts. It shows a standard Reversal structure. After sweeping the low's BSL and touching a Rejection on the daily chart, price rallies upward, produces MSS, fully invalidates the previous downtrend, and begins a new rally.
-
-
-
 -   We can use structural change to determine whether Reversal has occurred.
 -   Participating after Reversal is confirmed is essentially following the expected reversal in Price Delivery.
 -   Do not gamble on a reversal before price reaches an HTF POI.
 
- 
+
 
 ## Review
-
-
 
 ![image-20240803055020917](/tutorial/ict-smc/img/05.%20Interbank%20Price%20Delivery%20Algorithm/IPDA-example.png)
 
 Here, let us review the full chart and observe the details of how IPDA performs Price Delivery.
-
 1.   First, price begins Consolidation inside the range, moving back and forth while accumulating.
 2.   After price touches the OB at EQ for the final time, Expansion begins.
 3.   Price then begins another round of Consolidation.
@@ -126,4 +110,3 @@ Here, let us review the full chart and observe the details of how IPDA performs 
 6.   Finally, price will raid H4 liquidity and deliver into the daily POI.
 7.   Price produces Reversal and creates MSS.
 8.   A new round of delivery begins.
-

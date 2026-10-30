@@ -7,7 +7,6 @@
 ## Order Block (OB)
 
 An Order Block (OB) is an area where institutional money or major investors placed significant orders in the market. These areas often mark key turning points or continuation points in price, because institutional capital is large enough that price often forms support or resistance around these zones. The basic way to locate an OB on the chart is as follows:
-
 -   After price creates a clear Swing Point, it often reverses and produces a large Displacement.
 -   At that moment, we can mark the last candle that moved opposite to the direction of price delivery.
 -   The range formed by that candle is the Order Block we are looking for.
@@ -15,9 +14,6 @@ An Order Block (OB) is an area where institutional money or major investors plac
 ![Order Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Order%20Block.png)
 
 >   The chart marks each OB and the direction of price delivery it corresponds to. Simply put, after price moves, we find the last opposite-direction candle. That candle is the OB we want.
-
-
-
 -   A bearish OB can be viewed as a supply zone, while a bullish OB can be viewed as a demand zone.
 -   There are many ways to draw an OB. Some traders only use the body of the candle and ignore the wick. Others treat a sequence of opposite-direction candles as one entire OB. There is no absolute right or wrong answer. What matters is the price action when price returns to the OB.
 -   The midpoint of an OB is called the Mean Threshold (MT).
@@ -33,7 +29,6 @@ The logic behind an order block is as follows: when price moves aggressively, we
 
 
 Although OBs are easy to find and seem easy to use, a truly high-quality OB should satisfy the following three conditions:
-
 -   A Liquidity Sweep is completed: this reflects Smart Money manipulation before entry.
 -   After the OB forms, price produces a large Displacement, ideally with an FVG: this shows Smart Money has truly entered the market.
 -   The Displacement after the OB forms should ideally also complete an MSS: this further confirms Smart Money participation.
@@ -42,7 +37,7 @@ Although OBs are easy to find and seem easy to use, a truly high-quality OB shou
 
 >   Example of a high-quality OB.
 
- 
+
 
 ## Breaker Block (BB)
 
@@ -55,13 +50,12 @@ When we see an OB form and successfully create an MSS, but that OB is later not 
 
 
 The logic behind a Breaker Block is as follows:
-
 -   When an order block appears and price completes an MSS, but the OB is not respected, it means that the price delivery was actually **false delivery**. Its purpose was to lure speculative traders into following the continuation so Smart Money could complete Order Pairing.
 -   When price breaks through that OB, the true direction of price delivery is revealed. After Smart Money guides price into the real direction of delivery, it needs to **recover the cost spent earlier to trap speculative traders**.
 -   Therefore, after price moves in the true direction, it returns to the Breaker Block to recover that cost.
 -   For trapped speculative traders, this is the only chance to get out. We can also enter while Smart Money is recovering its cost.
 
- 
+
 
 ## Mitigation Block (MB)
 
@@ -72,13 +66,10 @@ The structure and logic of a Mitigation Block are extremely similar to a Breaker
 
 
 ![Breaker Block vs. Mitigation Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Breaker%20Block%20vs.%20Mitigation%20Block.png)
-
-
-
 -   Mitigation Block and Breaker Block share the same formation logic. The only difference is that a Mitigation Block does not produce MSS before it is broken.
 -   Wherever a Breaker Block can be used, a Mitigation Block can usually be used as a substitute as well, which will be mentioned later when we discuss entry models. In terms of strength, however, Breaker Block is generally better than Mitigation Block.
 
- 
+
 
 ## Propulsion Block (PB)
 
@@ -87,13 +78,10 @@ When price returns to an order block, reverses, and then immediately creates a n
 
 
 ![Propulsion Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Propulsion%20Block.png)
-
-
-
 -   When price touches a Propulsion Block, it should not break through the PB's MT.
 -   When price touches a Propulsion Block, it should move away quickly.
 
- 
+
 
 ## Rejection Block (RB)
 
@@ -103,7 +91,7 @@ When price touches a key level and prints a long wick, we call that behavior Rej
 
 ![Rejection Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Rejection%20Block.png)
 
- 
+
 
 ## Reclaimed Block
 
@@ -114,4 +102,3 @@ Earlier, we mentioned that order blocks are traces left by Smart Money when it b
 ![Reclaimed Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Reclaimed%20Block.png)
 
 >   To explain the logic of Reclaimed Block in more depth, we would need to introduce the concept of MMXM, or the Market Maker Model. So if this part feels unclear for now, that is normal. MMXM will be explained in detail later.
-

@@ -42,7 +42,7 @@ function buildOgHtml(link: RedirectLink): string {
 export function createRedirectRoute(link: RedirectLink) {
   const ogHtml = buildOgHtml(link);
 
-  return function GET(req: NextRequest) {
+  return function handler(req: NextRequest) {
     const ua = req.headers.get("user-agent") ?? "";
     if (BOT_RE.test(ua)) {
       return new Response(ogHtml, {

@@ -11,7 +11,6 @@
 
 
 ![Bullish Market Structure](/tutorial/ict-smc/img/01.%20Market%20Structure/Bullish%20Market%20Structure.png)
-
 -   市場呈現上升趨勢的結構。
 -   價格創造了一系列更高的高點（Higher Highs, HH）和更高的低點（Higher Lows, HL）。
 -   高點不斷地被突破，低點不斷地被抬高。
@@ -25,7 +24,6 @@
 由 **更低的高點（Lower High, LH）** 和 **更低的低點（Lower Low, LL）** 所組成，價格不斷向下跌破，表明此時價格有向下傳遞的意願。
 
 ![Bearish Market Structure](/tutorial/ict-smc/img/01.%20Market%20Structure/Bearish%20Market%20Structure.png)
-
 -   市場呈現下降趨勢的結構。
 -   價格創造了一系列更低的高點（Lower Highs, LH）和更低的低點（Lower Lows, LL）。
 -   低點不斷地被跌破，高點不斷地降低。
@@ -51,7 +49,6 @@
 >   別名：特徵轉換 / CHOCH (Change of Charachter)
 
 ![Market Structure Shift](/tutorial/ict-smc/img/01.%20Market%20Structure/Market%20Structure%20Shift.png)
-
 -   一個高效的 MSS 應該伴隨 Liquidity Sweep 和 Displacement 的出現，同時創造出 Imbalance。這些概念會在後面的章節補充。
 
 -   MSS 也可以理解成一種特殊的 MSB。

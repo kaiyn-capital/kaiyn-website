@@ -11,7 +11,6 @@ A bullish market structure consists of **higher highs (HH)** and **higher lows (
 
 
 ![Bullish Market Structure](/tutorial/ict-smc/img/01.%20Market%20Structure/Bullish%20Market%20Structure.png)
-
 -   The market is structured in an uptrend.
 -   Price creates a series of higher highs (HH) and higher lows (HL).
 -   Highs keep getting broken, while lows keep getting lifted.
@@ -25,7 +24,6 @@ A bullish market structure consists of **higher highs (HH)** and **higher lows (
 A bearish market structure consists of **lower highs (LH)** and **lower lows (LL)**. Price keeps breaking downward, showing that it has a willingness to deliver lower.
 
 ![Bearish Market Structure](/tutorial/ict-smc/img/01.%20Market%20Structure/Bearish%20Market%20Structure.png)
-
 -   The market is structured in a downtrend.
 -   Price creates a series of lower highs (LH) and lower lows (LL).
 -   Lows keep getting broken, while highs keep getting pushed lower.
@@ -51,7 +49,6 @@ When "the high before the lowest low is broken" or "the low before the highest h
 >   Also known as: Change of Character / CHOCH
 
 ![Market Structure Shift](/tutorial/ict-smc/img/01.%20Market%20Structure/Market%20Structure%20Shift.png)
-
 -   A high-quality MSS should appear together with a Liquidity Sweep and Displacement, while also creating an Imbalance. These concepts will be explained in later chapters.
 
 -   MSS can also be understood as a special form of MSB.

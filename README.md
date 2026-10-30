@@ -19,24 +19,23 @@ Kaiyn Website is a multilingual marketing site for the Kaiyn crypto trading
 community. It is a statically generated Next.js App Router project with
 locale-prefixed routing, a `base-ui` + `shadcn/ui` (maia theme) component
 system, and a CSS-first Tailwind v4 design layer.
-
 - Live locales: `en` (default, no prefix), `zh-TW`, `zh-CN`
 - Strict TypeScript, formatted and linted by Biome
 - CI gates every PR on typecheck, lint, format check, and production build
 
 ## Tech Stack
 
-| Area              | Choice                                                              |
-| ----------------- | ------------------------------------------------------------------- |
-| Framework         | Next.js 16 (App Router) + React 19                                  |
-| Language          | TypeScript (strict)                                                 |
-| Styling           | Tailwind CSS v4 (`@theme inline`, mobile-first, fluid `--page-inline`) |
+| Area              | Choice                                                                     |
+| ----------------- | -------------------------------------------------------------------------- |
+| Framework         | Next.js 16 (App Router) + React 19                                         |
+| Language          | TypeScript (strict)                                                        |
+| Styling           | Tailwind CSS v4 (`@theme inline`, mobile-first, fluid `--page-inline`)     |
 | Component system  | `@base-ui/react` primitives + `shadcn/ui` (maia theme) + Magic UI registry |
-| Animation / icons | `motion`, `tw-animate-css`, `lucide-react`                          |
-| i18n              | `next-intl` v4 (`en` / `zh-TW` / `zh-CN`)                           |
-| Tooling           | Biome (lint + format), pnpm 10, Node 25                             |
-| CI                | GitHub Actions (parallel typecheck / lint / format / build)         |
-| Automation        | Dependabot (weekly, npm + github-actions)                           |
+| Animation / icons | `motion`, `tw-animate-css`, `lucide-react`                                 |
+| i18n              | `next-intl` v4 (`en` / `zh-TW` / `zh-CN`)                                  |
+| Tooling           | Biome (lint + format), pnpm 10, Node 25                                    |
+| CI                | GitHub Actions (parallel typecheck / lint / format / build)                |
+| Automation        | Dependabot (weekly, npm + github-actions)                                  |
 
 ## Getting Started
 
@@ -57,25 +56,24 @@ pnpm dev
 ```
 
 Then open:
-
 - English (default): http://localhost:3000
 - Traditional Chinese: http://localhost:3000/zh-TW
 - Simplified Chinese: http://localhost:3000/zh-CN
 
 ## Scripts
 
-| Script              | Purpose                                                                  |
-| ------------------- | ------------------------------------------------------------------------ |
-| `pnpm dev`          | Start the local dev server                                               |
-| `pnpm build`        | Create a production build                                                |
-| `pnpm start`        | Start the production server                                              |
-| `pnpm typecheck`    | Run TypeScript checks (`tsc --noEmit`)                                   |
-| `pnpm lint`         | Run Biome lint (`biome check`)                                           |
-| `pnpm format`       | Apply Biome formatting (`biome format --write`)                          |
-| `pnpm format:check` | Check formatting without writing (`biome format`)                        |
-| `pnpm check`        | typecheck + `biome check` + `biome format` — same gates CI runs          |
-| `pnpm clean`        | Remove generated build/cache files                                       |
-| `pnpm clean:all`    | Remove generated files, then reinstall dependencies                      |
+| Script              | Purpose                                                         |
+| ------------------- | --------------------------------------------------------------- |
+| `pnpm dev`          | Start the local dev server                                      |
+| `pnpm build`        | Create a production build                                       |
+| `pnpm start`        | Start the production server                                     |
+| `pnpm typecheck`    | Run TypeScript checks (`tsc --noEmit`)                          |
+| `pnpm lint`         | Run Biome lint (`biome check`)                                  |
+| `pnpm format`       | Apply Biome formatting (`biome format --write`)                 |
+| `pnpm format:check` | Check formatting without writing (`biome format`)               |
+| `pnpm check`        | typecheck + `biome check` + `biome format` — same gates CI runs |
+| `pnpm clean`        | Remove generated build/cache files                              |
+| `pnpm clean:all`    | Remove generated files, then reinstall dependencies             |
 
 Run `pnpm check` before pushing — it mirrors CI.
 
@@ -119,7 +117,6 @@ public/
 ## Internationalization
 
 Locale configuration lives in [`src/i18n/routing.ts`](./src/i18n/routing.ts):
-
 - `en` — default, served from `/` (no prefix)
 - `zh-TW` — Traditional Chinese, served from `/zh-TW`
 - `zh-CN` — Simplified Chinese, served from `/zh-CN`
@@ -138,7 +135,6 @@ preserve locale prefixes correctly across routes.
 The home page is assembled in
 [`src/app/[locale]/(home)/page.tsx`](./src/app/[locale]/(home)/page.tsx) from
 four sections, each backed by components in `_components/`:
-
 1. **Hero** — `_components/hero/`
 2. **Exchange logos marquee** — `_components/exchange-logos-marquee.tsx`
 3. **Feature cards** — `_components/feature-cards/` (composed of
@@ -154,7 +150,6 @@ flow.
 
 This project follows a strict three-bucket layout (see `CLAUDE.md` and
 `CONTRIBUTING.md` for the full rules):
-
 - `src/components/ui/` — shadcn/ui primitives, plus components installed from
   the [Magic UI](https://magicui.design/) registry via the shadcn CLI (e.g.
   `marquee`, `animated-list`, `text-animate`, `shiny-button`, `avatar-circles`).
@@ -166,7 +161,6 @@ This project follows a strict three-bucket layout (see `CLAUDE.md` and
   `LanguageSwitcher`).
 
 Two project-specific notes:
-
 - **Wrap, don't fork.** When a shadcn component needs customization, build a
   wrapper in `custom/` instead of editing the `ui/` source.
 - **`base-ui` uses `render`, not `asChild`.** The underlying primitive is
@@ -178,12 +172,12 @@ Two project-specific notes:
 [`.github/workflows/ci.yml`](./.github/workflows/ci.yml) runs four parallel
 jobs on every push to `main` and every PR:
 
-| Job            | Command                |
-| -------------- | ---------------------- |
-| `typecheck`    | `pnpm typecheck`       |
-| `lint`         | `pnpm lint`            |
-| `format-check` | `pnpm format:check`    |
-| `build`        | `pnpm build`           |
+| Job            | Command             |
+| -------------- | ------------------- |
+| `typecheck`    | `pnpm typecheck`    |
+| `lint`         | `pnpm lint`         |
+| `format-check` | `pnpm format:check` |
+| `build`        | `pnpm build`        |
 
 Concurrency is keyed on `github.ref`, so superseding pushes cancel in-flight
 runs and won't pile up CI usage.

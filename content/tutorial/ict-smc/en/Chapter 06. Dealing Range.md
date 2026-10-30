@@ -1,9 +1,6 @@
 # Dealing Range
 
 As long as you can identify a Swing High and a Swing Low, the price between those two points can be called a "range." This pair of Swing High and Swing Low can be any two points, although ideally they should be meaningful points, especially Swing Points that appear after MSS. The following are several Swing Points we commonly use in trading:
-
-
-
 -   Previous Week High (PWH), Previous Week Low (PWL)
 -   Previous Day High (PDH), Previous Day Low (PDL)
 -   Monday High, Monday Low
@@ -53,13 +50,12 @@ You do not need to memorize this image. You only need to understand that when yo
 -   **Price only moves between ERL and IRL**. When price is executing one-directional delivery, it will take ERL and then perform Retracement until IRL is rebalanced or mitigated. This behavior is called **ERL to IRL**. Afterward, price will immediately reverse and continue delivering in the original direction, attempting to take ERL. This behavior is called **IRL to ERL**.
 
 -   **Draw on Liquidity (DOL)**:
-
     -   Therefore, after price takes ERL, you would expect price to go back and take IRL. At that point, you would focus on a specific IRL on the chart and believe it has a draw on price. You would expect price to return to that IRL. Likewise, after price fills IRL, you would expect a certain ERL to have a draw on price, and you would expect price to deliver toward that ERL to continue price delivery.
 
     -   The PDA that has this draw on price is what you consider your DOL. DOL should be the element you care about most when trading, because in theory, price's reaction to your DOL directly affects all of your decisions.
 
-    >   -   If you often watch my charts, you will almost never see me explicitly label DOL. But the concept of DOL is extremely important. You do not have to draw it, but you must have the concept in your mind. In many cases, DOL directly determines your Bias, and this will be mentioned repeatedly later.
-    >   -   There is a similar concept called **Point of Interest (POI)**, which basically refers to the PDA you are paying attention to. I will not explain too much on it here.
+    > -   If you often watch my charts, you will almost never see me explicitly label DOL. But the concept of DOL is extremely important. You do not have to draw it, but you must have the concept in your mind. In many cases, DOL directly determines your Bias, and this will be mentioned repeatedly later.
+        > - There is a similar concept called **Point of Interest (POI)**, which basically refers to the PDA you are paying attention to. I will not explain too much on it here.
 
 -   **Institutional Order Flow (IOF)**: when price is delivering in one direction, same-direction PDAs will keep being respected, while opposing PDAs will keep being broken.
 
@@ -79,9 +75,6 @@ You do not need to memorize this image. You only need to understand that when yo
 
 
 ![OTE](/tutorial/ict-smc/img/06.%20Range/OTE.png)
-
-
-
 -   **1**: swing origin.
 -   **0**: swing endpoint, meaning the Swing Point where Retracement begins.
 -   **0.5**: EQ of the swing range.

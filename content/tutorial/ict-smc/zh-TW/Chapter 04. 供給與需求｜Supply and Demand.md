@@ -7,7 +7,6 @@
 ## 訂單塊 / Order Block （OB）
 
 Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的區域。這些區域通常標誌著市場價格的關鍵轉折點或延續點，因為機構投資者的資金量龐大，價格往往會在這些區域附近形成支撐或阻力。在圖表中尋找 OB 的方式如下：
-
 -   當價格創造出一個明顯的 Swing Point 後，價格往往會進行反轉並出現大幅度的 Displacement。
 -   此時我們可以標註出與價格傳遞方向相反的最後一根K線。
 -   此時這根 K 線所形成的區間就是我們想找的 Order Block。
@@ -15,9 +14,6 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 ![Order Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Order%20Block.png)
 
 >   圖中標記了每一根 OB 和它們所對應的價格傳遞方向。簡單來說 OB 就是在價格移動後找出它的最後一根反向K線，那根K線就是我們要的 OB。
-
-
-
 -   看跌的 OB 可以被視作供給（Supply）區間，看漲的 OB 可以被視作需求（Demand）區間。
 -   OB 的畫法有很多種，有些人只會將 OB 的實體部分（不包含引線） 視作 OB，有些人則是將反向的連續 K 線都視作一整塊 OB。其實沒有絕對的對錯，重點還是看價格回到 OB 時的價格行為。
 -   OB 的中線稱為 Mean Thershold（MT）。
@@ -33,7 +29,6 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 
 
 雖然 OB 很好找，看起來也很好用，但一個真正高效力的 OB 形成時應該滿足以下三個條件：
-
 -   完成 Liquidity Sweep：聰明錢進場前操縱價格的表現。
 -   OB 形成後，出現大幅度的 Displacement，並且最好帶有 FVG：聰明錢確實介入市場的表現。
 -   OB 形成後的 Displacement 最好同時完成 MSS：聰明錢確實介入市場的表現。
@@ -42,7 +37,7 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 
 >   高效力 OB 範例。
 
- 
+
 
 ## 破壞塊 / Breaker Block（BB）
 
@@ -55,13 +50,12 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 
 
 破壞塊的形成原理如下：
-
 -   當一個訂單塊出現，價格也隨即完成 MSS 時，如果這個 OB 沒有被尊重，意味著此時這段價格傳遞實際上是一段**「假的價格傳遞」**，目的在於誘騙投機資金跟隨趨勢的延續進場以便聰明錢進行 Order Paring。
 -   當價格破壞掉這個 OB 時，實際上此時出現的才是真正的價格傳遞方向。而當聰明錢引導價格走出真正的傳遞方向後，聰明錢需要**將前期誘騙投機資金所花費的成本收回**。
 -   因此價格會在走出真正的方向後回到破壞塊進行成本回收。
 -   此時對投機資金而言是唯一的解套機會，我們也可以在聰明錢回收成本時進場。
 
- 
+
 
 ## 緩解塊 / Mitigation Block（MB）
 
@@ -72,13 +66,10 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 
 
 ![Breaker Block vs. Mitigation Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Breaker%20Block%20vs.%20Mitigation%20Block.png)
-
-
-
 -   Mitigation Block 與 Breaker Block 的形成原理相同，其差異只在於 Mitigation Block 被破壞前沒有做出 MSS。
 -   破壞塊能使用的地方，同樣都可以用緩解塊作替代（後面講解進場模型時會提到）。但效力方面 Breaker Block 會優於 Mitigation Block。
 
- 
+
 
 ## 推進塊 / Propulsion Block（PB）
 
@@ -87,13 +78,10 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 
 
 ![Propulsion Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Propulsion%20Block.png)
-
-
-
 -   當價格接觸到推進塊時，價格不應該突破推進塊的 MT。
 -   當價格接觸到推進塊時，價格應該迅速離開推進塊。
 
- 
+
 
 ## 拒絕塊 / Rejection Block（RB）
 
@@ -103,7 +91,7 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 
 ![Rejection Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Rejection%20Block.png)
 
- 
+
 
 ## 重奪塊 / Reclaimed Block
 
@@ -114,4 +102,3 @@ Order Block (OB) 是指市場中機構資金或大資金玩家大規模下單的
 ![Reclaimed Block](/tutorial/ict-smc/img/04.%20Supply%20and%20Demand/Reclaimed%20Block.png)
 
 >   如果要更深入解釋 Reclaimed Block 的原理，則必須提及 MMXM（造市商模型）的概念。因此這邊如果有疑惑是正常的，關於 MMXM 的概念會在後續的篇幅中深入解釋。
-

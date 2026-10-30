@@ -5,7 +5,6 @@
 
 
 機構資金在進場時需要進行大量的訂單匹配（Order Pairing），所以並不是圖表上的所有價格都可以作為機構進場的成本價。機構在進場時需要依靠大量的流動性（Liquidity），以下幾個位置是 Liquidity 可能存在的地方。
-
 -   波段高點（Swing High） / 波段低點（Swing Low）
 -   等高點（Equal High, EQH）/ 等低點（Equal Low, EQL）
 
@@ -37,7 +36,7 @@
 -   此處通常是投機資金放置停損的位置，會存在 Liquidity。
 -   當一個明確的 Swing High 被突破時，我們可以關注此時價格是否尊重這個高點的 BSL。
 -   當一個明確的 Swing Low 被跌破時，我們可以關注此時價格是否尊重這個低點的 SSL。
--   ***請勿在價格發生突破 / 跌破時直接追，因為你不能確定他是否會被尊重。***
+-   _**請勿在價格發生突破 / 跌破時直接追，因為你不能確定他是否會被尊重。**_
 
 
 
@@ -46,7 +45,7 @@
 -   當兩個以上 Swing High / Swing Low 重合時，我們可以稱他為 EQH / EQL。
 -   和 Swing High / Swing Low 一樣，會存在 BSL / SSL。
 -   和 Swing High / Swing Low 的區別在於這部分的流動性是**被驗證過的**，效力會更強一點。
--   ***請勿在價格發生突破 / 跌破時直接追，因為你不能確定他是否會被尊重。***
+-   _**請勿在價格發生突破 / 跌破時直接追，因為你不能確定他是否會被尊重。**_
 
 
 
@@ -58,14 +57,11 @@
 
 >   別名：
 >
->   -   Stop Loss Hunt (SH / SLH)：停損獵殺。
->   -   Liquidity Grab (Grab)：流動性搶奪。
->   -   Liquidity Raid (Raid)：流動性襲擊。
->   -   Swing Failure Pattern (SFP)：失敗擺動型態。
->   -   Fu：我也不知道這是啥，反正意思都一樣。
-
-
-
+> -   Stop Loss Hunt (SH / SLH)：停損獵殺。
+> -   Liquidity Grab (Grab)：流動性搶奪。
+> -   Liquidity Raid (Raid)：流動性襲擊。
+> -   Swing Failure Pattern (SFP)：失敗擺動型態。
+> -   Fu：我也不知道這是啥，反正意思都一樣。
 -   Liquidity Sweep 指的是價格對 Liquidity 進行突破後快速收回的行為。
 -   當價格進行突破後，聰明錢會和投機資金完成 Order Pairing，雙方籌碼進行交換，隨即反轉行情。
 -   Liquidity Sweep 是每一段多頭 or 空頭結構的**起點**。
@@ -79,15 +75,9 @@
 ## 流動性運行與價格傳遞 / Liquidity Run and Price Delivery
 
 當價格掠奪反向流動性後，會開始進行價格傳遞。這個行為我們稱之為**流動性運行（Liquidity Run）**。
-
-
-
 -   **低阻力流動性運行 / Low Resistance Liquidity Run (LRLR)**
 
 當價格在傳遞的過程中十分順暢，遇到反向流動性時沒有過多的停留時（阻力低），我們稱這種現象為**低阻力流動性運行 / Low Resistance Liquidity Run (LRLR)**。
-
-
-
 -    **高阻力流動性運行 / High Resistance Liquidity Run (HRLR)**
 
 當價格在傳遞的過程中不太順暢，多數時間處在震盪狀態（阻力強），我們稱這種現象為**高阻力流動性運行 / High Resistance Liquidity Run (HRLR)**，這表明此時的價格傳遞並不是很強勢。
@@ -106,4 +96,4 @@
 
 
 
-![Change in State of Delivery](/tutorial/ict-smc/img/02.%20Liquidity/Change%20in%20State%20of%20Delivery.png) 
+![Change in State of Delivery](/tutorial/ict-smc/img/02.%20Liquidity/Change%20in%20State%20of%20Delivery.png)

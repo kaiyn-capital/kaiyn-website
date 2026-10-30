@@ -1,9 +1,6 @@
 # Imbalance
 
 >   We previously mentioned that price only displaces toward liquidity and imbalance areas. In the previous chapter, we explained liquidity in detail. Here, we will explain the concept of imbalance.
-
-
-
 -   When price produces a large displacement, we can assume that Smart Money has entered the market with significant capital.
 -   When large capital enters the market, the sharp displacement can cause some limit orders to go unfilled, creating inefficiency and liquidity imbalance in a specific price area.
 -   When liquidity becomes imbalanced, Smart Money guides price back into the imbalance area to fill the remaining orders. This is called Rebalance.
@@ -14,7 +11,6 @@
 This fully explains the ICT/SMC idea that "price only displaces toward liquidity and imbalances."
 
 If Smart Money wants to make a profit, there are only two things it needs to do:
-
 1.  Raid the stop-loss orders of speculative traders.
 2.  Fill the orders it failed to fill earlier.
 
@@ -30,12 +26,12 @@ When three consecutive candles appear, and the wick of the first candle does not
 >
 >   Also known as:
 >
->   -   Imbalance (IMB)
->   -   Inefficiency
->   -   Buyside Imbalance Sellside Inefficiency (BISI): bullish imbalance and sellside inefficiency, meaning +FVG.
->   -   Sellside Imbalance Buyside Inefficiency (SIBI): bearish imbalance and buyside inefficiency, meaning -FVG.
->   -   Liquidity Void (LV)
->   -   Liquidity Gap (LG)
+> -   Imbalance (IMB)
+> -   Inefficiency
+> -   Buyside Imbalance Sellside Inefficiency (BISI): bullish imbalance and sellside inefficiency, meaning +FVG.
+> -   Sellside Imbalance Buyside Inefficiency (SIBI): bearish imbalance and buyside inefficiency, meaning -FVG.
+> -   Liquidity Void (LV)
+> -   Liquidity Gap (LG)
 
 
 
@@ -64,7 +60,6 @@ When two opposing FVGs overlap, the overlapping area is called a Balance Price R
 ## Institutional Order Flow Entry Drill (IOFED)
 
 When market conditions are extremely strong, an FVG may not be filled effectively. We call this IOFED. IOFED must satisfy the following two conditions:
-
 -   The market produces a large Displacement and forms an FVG.
 -   Price quickly retraces into the FVG, but **the retracement does not exceed 50% of the FVG**.
 
@@ -88,10 +83,7 @@ When an NWOG appears, the orders in that area are also unfilled, so imbalance ex
 
 Because the crypto market trades 24/7, this phenomenon is relatively uncommon in crypto. However, we can still observe CME futures gaps to get a similar effect.
 
->   -   CME futures charts can be found on TradingView by searching BTC1! for Bitcoin futures or ETH1! for Ether futures.
->   -   A similar concept is the New Day Open Gap (NDOG), but it is basically not useful in crypto markets.
+> -   CME futures charts can be found on TradingView by searching BTC1! for Bitcoin futures or ETH1! for Ether futures.
+> -   A similar concept is the New Day Open Gap (NDOG), but it is basically not useful in crypto markets.
 
 ![New Week Open Gap](/tutorial/ict-smc/img/03.%20Imbalance/New%20Week%20Open%20Gap.png)
-
-
-

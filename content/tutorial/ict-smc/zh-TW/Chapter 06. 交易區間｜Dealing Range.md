@@ -1,9 +1,6 @@
 # 交易區間 / Dealing Range
 
 只要你能找到一個 Swing High 和 Swing Low，那這兩個點之間的價格就能被稱為一個「區間」。這對 Swing High 和 Swing Low 可以是任意兩個點，當然，它們最好是「有意義的」，特別是出現 MSS 後的 Swing Point。以下是幾個我們在交易中時常用到的 Swing Point：
-
-
-
 -   上週高點 (Previous Week High, PWH)、上週低點（Previous Week Low）
 -   昨日高點 (Previous Day High, PDH)、昨日低點 (Previous Day Low, PDL)
 -   週一高點 (Monday High)、週一低點 (Monday Low)
@@ -21,7 +18,7 @@
 
 
 
-##  溢價折價區陣列矩陣 / Premium and Discount Array Matrix（PDA Matrix）
+## 溢價折價區陣列矩陣 / Premium and Discount Array Matrix（PDA Matrix）
 
 >   這個名字看上去挺唬人，但其實就是整合一下前面的東西，看完你就能理解了。
 
@@ -29,9 +26,9 @@
 
 ### 溢價折價區 / Premium and Discount (P/D)
 
- 當我們定義好 Range 後，我們可以使用斐波那契測量出區間中線（0.5），如果你有認真觀看我們前面的教學，你會知道區間的 0.5 那條線我們稱作 Equilibrium (EQ)。在 ICT/SMC 中，我們會將區間 EQ 以上的部分視作溢價區（Premium），區間 EQ 以下稱作折價區（Discount）。
+當我們定義好 Range 後，我們可以使用斐波那契測量出區間中線（0.5），如果你有認真觀看我們前面的教學，你會知道區間的 0.5 那條線我們稱作 Equilibrium (EQ)。在 ICT/SMC 中，我們會將區間 EQ 以上的部分視作溢價區（Premium），區間 EQ 以下稱作折價區（Discount）。
 
-當價格運行至 Premium 時，我們可以認定價格當前處於超買狀態，此時我們會傾向於尋找做空（short）機會；而當價格運行至 Discount 時，可以認定價格當前處於超買狀態，此時我們會傾向於尋找做多（long）機會。 
+當價格運行至 Premium 時，我們可以認定價格當前處於超買狀態，此時我們會傾向於尋找做空（short）機會；而當價格運行至 Discount 時，可以認定價格當前處於超買狀態，此時我們會傾向於尋找做多（long）機會。
 
 ![Premium and Discount](/tutorial/ict-smc/img/06.%20Range/Premium%20and%20Discount.png)
 
@@ -53,13 +50,12 @@
 -   **價格只會在 ERL 和 IRL 之間移動**，當價格在執行單方向傳遞時，會在拿到 ERL 後執行 Retracement，直到 IRL 被 rebalance/mitigate，這個行為稱為 **ERL to IRL**；隨後價格會立即反轉並繼續向原方向傳遞，嘗試拿掉 ERL，這個行為稱為 **IRL to ERL**。
 
 -   **Draw on Liquidity (DOL)**：
-
     -   因此，當價格在拿掉 ERL 之後，你會期望價格往回拿掉 IRL，這時你會關注圖表上的某個 IRL，你會認為該 IRL 存在對價格的吸引力，你期望價格回到那個 IRL；同理，當價格填補完 IRL 之後，你會期望某個 ERL 存在對價格的吸引力，你期望價格傳遞過去拿掉那個 ERL 延續價格傳遞。
 
     -   此時，那個對價格存在吸引力的 PDA 就會是你認為的 DOL，DOL 應該是你在交易時最關注的元素，因為理論上價格對你的 DOL 的反應會直接影響你的所有決策。
 
-    >   -   如果你經常看我畫圖，你幾乎不會在我的圖表上看到我標記出 DOL。但 DOL 的概念非常重要，你可以不把它畫出來，但這個概念你必須有。因為它在很多時候 DOL 會直接決定你的 Bias，這在後面會不斷地提及。
-    >   -   有一個類似的概念叫**感興趣的點位（Point of Interest, POI）**，基本上也是指你所關注的 PDA，在此不過多贅述。
+    > -   如果你經常看我畫圖，你幾乎不會在我的圖表上看到我標記出 DOL。但 DOL 的概念非常重要，你可以不把它畫出來，但這個概念你必須有。因為它在很多時候 DOL 會直接決定你的 Bias，這在後面會不斷地提及。
+        > - 有一個類似的概念叫**感興趣的點位（Point of Interest, POI）**，基本上也是指你所關注的 PDA，在此不過多贅述。
 
 -   **機構訂單流（Institutional Order Flow, IOF）**：當價格在進行單方向傳遞時，同向的 PDA 會不斷地被尊重，反向的 PDA 會不斷地被突破。
 
@@ -79,9 +75,6 @@
 
 
 ![OTE](/tutorial/ict-smc/img/06.%20Range/OTE.png)
-
-
-
 -   **1**：波段起點。
 -   **0**：波段終點（Retracement 開始的 Swing Point）。
 -   **0.5**：波段區間的 EQ。

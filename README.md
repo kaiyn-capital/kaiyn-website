@@ -83,6 +83,7 @@ Run `pnpm check` before pushing — it mirrors CI.
 src/
   app/
     globals.css                Tailwind v4 entrypoint, design tokens
+    shadcn-tailwind.css        shadcn base styles, ejected (third-party - do not edit)
     [locale]/
       layout.tsx               Locale-aware root layout (fonts, html lang, providers)
       (home)/

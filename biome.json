@@ -15,7 +15,8 @@
       "!build",
       "!public",
       "!src/components/ui",
-      "!src/lib/utils.ts"
+      "!src/lib/utils.ts",
+      "!src/app/shadcn-tailwind.css"
     ]
   },
   "formatter": {

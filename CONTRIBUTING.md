@@ -134,6 +134,8 @@ TypeScript runs in strict mode (`tsconfig.json`). Avoid `any`; prefer narrowing 
 
 `src/components/ui/` (shadcn/ui) and `src/lib/utils.ts` are treated as vendored third-party code. Do not edit them in place. Biome is configured to skip these paths, and re-running the shadcn CLI will overwrite manual edits.
 
+`src/app/shadcn-tailwind.css` is vendored the same way. It is shadcn's `tailwind.css`, ejected so the app does not depend on the `shadcn` package and its CLI dependencies. To update it, replace the whole file with `dist/tailwind.css` from a newer shadcn release (for example `https://unpkg.com/shadcn@<version>/dist/tailwind.css`) and update the version in its header comment. Run the CLI through `pnpm dlx shadcn@latest` instead of adding `shadcn` back as a dependency.
+
 When customization is required, build a wrapper under `src/components/custom/`:
 
 ```tsx

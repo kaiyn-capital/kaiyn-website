@@ -1,6 +1,7 @@
 # 交易區間 / Dealing Range
 
 只要你能找到一個 Swing High 和 Swing Low，那這兩個點之間的價格就能被稱為一個「區間」。這對 Swing High 和 Swing Low 可以是任意兩個點，當然，它們最好是「有意義的」，特別是出現 MSS 後的 Swing Point。以下是幾個我們在交易中時常用到的 Swing Point：
+
 -   上週高點 (Previous Week High, PWH)、上週低點（Previous Week Low）
 -   昨日高點 (Previous Day High, PDH)、昨日低點 (Previous Day Low, PDL)
 -   週一高點 (Monday High)、週一低點 (Monday Low)
@@ -8,21 +9,13 @@
 
 >   其實開盤價也可以作為交易 Setup 的一部分，這點會在之後 PO3 和 Time and Price 兩個章節詳細說明。
 
-
-
 除了以上提到的幾個 Swing Point，任何你找得到的波段高低點都可以作為你的區間 Setup。還是那句話，只要你知道自己在幹嘛，你想怎麼做都可以。
 
-
-
 ![Range](/tutorial/ict-smc/img/06.%20Range/Range.png)
-
-
 
 ## 溢價折價區陣列矩陣 / Premium and Discount Array Matrix（PDA Matrix）
 
 >   這個名字看上去挺唬人，但其實就是整合一下前面的東西，看完你就能理解了。
-
-
 
 ### 溢價折價區 / Premium and Discount (P/D)
 
@@ -39,8 +32,6 @@
 >   我們會把 OB、FVG、Liquidity 這些可能提供反向力道的元素統稱為 PDA。
 
 這張圖不需要記，你只需要知道當你拉出一個區間時，區間內會存在大量 PDA 由上到下排列，擁有這個概念就足夠了。PDA的概念十分重要，在接下來的章節中會被反覆提起。
-
-
 
 ## 內部流動性 & 外部流動性 / Internal Range Liquidity (IRL) & External Range Liquidity (ERL)
 
@@ -63,8 +54,6 @@
 
 >   標準的機構訂單流和 ERL / IRL 的實例。
 
-
-
 ## 最佳進場區間 / Optimal Trade Entry（OTE）
 
 -   最佳進場區間（Optimal Trade Entry, OTE）是 ICT 中一種常見的輔助進場工具。它不能單獨使用，必須搭配前面提及的概念和元素。
@@ -72,9 +61,8 @@
 -   OTE 也可以幫助你尋找你的出場目標位，當然，這一切都必須搭配 DOL、PDA 和前面提及的各種概念。
 -   **最後，切記不要在脫離其他概念的場景下使用 OTE，它只是一個輔助工具。**
 
-
-
 ![OTE](/tutorial/ict-smc/img/06.%20Range/OTE.png)
+
 -   **1**：波段起點。
 -   **0**：波段終點（Retracement 開始的 Swing Point）。
 -   **0.5**：波段區間的 EQ。

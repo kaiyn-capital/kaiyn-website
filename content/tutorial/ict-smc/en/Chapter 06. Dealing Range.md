@@ -1,6 +1,7 @@
 # Dealing Range
 
 As long as you can identify a Swing High and a Swing Low, the price between those two points can be called a "range." This pair of Swing High and Swing Low can be any two points, although ideally they should be meaningful points, especially Swing Points that appear after MSS. The following are several Swing Points we commonly use in trading:
+
 -   Previous Week High (PWH), Previous Week Low (PWL)
 -   Previous Day High (PDH), Previous Day Low (PDL)
 -   Monday High, Monday Low
@@ -8,21 +9,13 @@ As long as you can identify a Swing High and a Swing Low, the price between thos
 
 >   The open price can also be used as part of a trading setup. This will be explained in more detail later in the PO3 and Time and Price chapters.
 
-
-
 Aside from the Swing Points listed above, any swing high or low you can identify can be used as your range setup. As always, as long as you know what you are doing, you can do whatever you want.
 
-
-
 ![Range](/tutorial/ict-smc/img/06.%20Range/Range.png)
-
-
 
 ## Premium and Discount Array Matrix (PDA Matrix)
 
 >   The name sounds intimidating, but it is really just a way to combine the things we have already covered. Once you finish this section, it should make sense.
-
-
 
 ### Premium and Discount (P/D)
 
@@ -39,8 +32,6 @@ At this point, we can combine all the FVGs, OBs, and Liquidity concepts we learn
 >   We collectively refer to OBs, FVGs, Liquidity, and other elements that may provide opposing force as PDA.
 
 You do not need to memorize this image. You only need to understand that when you draw out a range, a large number of PDAs will be arranged from top to bottom inside that range. Having this concept is enough. The idea of PDA is very important and will appear repeatedly in the following chapters.
-
-
 
 ## Internal Range Liquidity (IRL) & External Range Liquidity (ERL)
 
@@ -63,8 +54,6 @@ You do not need to memorize this image. You only need to understand that when yo
 
 >   Example of standard Institutional Order Flow and ERL / IRL.
 
-
-
 ## Optimal Trade Entry (OTE)
 
 -   Optimal Trade Entry (OTE) is a common ICT tool used to assist entries. It cannot be used on its own and must be combined with the concepts and elements discussed earlier.
@@ -72,9 +61,8 @@ You do not need to memorize this image. You only need to understand that when yo
 -   OTE can also help you locate take-profit targets, but again, all of this must be combined with DOL, PDA, and the other concepts discussed earlier.
 -   **Finally, remember not to use OTE outside the context of the other concepts. It is only an auxiliary tool.**
 
-
-
 ![OTE](/tutorial/ict-smc/img/06.%20Range/OTE.png)
+
 -   **1**: swing origin.
 -   **0**: swing endpoint, meaning the Swing Point where Retracement begins.
 -   **0.5**: EQ of the swing range.

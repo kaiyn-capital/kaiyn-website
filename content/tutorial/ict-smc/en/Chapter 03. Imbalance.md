@@ -6,21 +6,16 @@
 -   When liquidity becomes imbalanced, Smart Money guides price back into the imbalance area to fill the remaining orders. This is called Rebalance.
 -   After liquidity in the imbalance area has been rebalanced, price will continue in its original direction of delivery.
 
-
-
 This fully explains the ICT/SMC idea that "price only displaces toward liquidity and imbalances."
 
 If Smart Money wants to make a profit, there are only two things it needs to do:
+
 1.  Raid the stop-loss orders of speculative traders.
 2.  Fill the orders it failed to fill earlier.
-
-
 
 ## Fair Value Gap (FVG)
 
 When three consecutive candles appear, and the wick of the first candle does not fully overlap with the wick of the third candle, we call the area between them a **Fair Value Gap (FVG)**. This means there is an imbalance in that price range, and the algorithm may guide price back to that area in the future to rebalance it.
-
-
 
 >   Note: On the chart, we use (+) to represent bullish and (-) to represent bearish.
 >
@@ -33,8 +28,6 @@ When three consecutive candles appear, and the wick of the first candle does not
 > -   Liquidity Void (LV)
 > -   Liquidity Gap (LG)
 
-
-
 ![Fair Value Gap](/tutorial/ict-smc/img/03.%20Imbalance/Fair%20Value%20Gap.png)
 
 >   The midpoint of an FVG is called Consequent Encroachment (CE).
@@ -45,8 +38,6 @@ When price passes through an FVG and directly engulfs it without rebalancing it,
 
 **Inversion Fair Value Gap (IFVG)**. Generally speaking, IFVG tends to be stronger than a regular FVG.
 
-
-
 ![Inversion Fair Value Gap](/tutorial/ict-smc/img/03.%20Imbalance/Inversion%20Fair%20Value%20Gap.png)
 
 ## Balance Price Range (BPR)
@@ -55,25 +46,18 @@ When two opposing FVGs overlap, the overlapping area is called a Balance Price R
 
 ![Balance Price Range](/tutorial/ict-smc/img/03.%20Imbalance/Balance%20Price%20Range.png)
 
-
-
 ## Institutional Order Flow Entry Drill (IOFED)
 
 When market conditions are extremely strong, an FVG may not be filled effectively. We call this IOFED. IOFED must satisfy the following two conditions:
+
 -   The market produces a large Displacement and forms an FVG.
 -   Price quickly retraces into the FVG, but **the retracement does not exceed 50% of the FVG**.
-
-
 
 When this type of price action appears, we call it IOFED. It means that price delivery is **extremely strong**.
 
 >   In some stricter definitions, price must rebalance and reject immediately on the next candle after the FVG forms in order to be considered IOFED.
 
-
-
 ![Institutional Order Flow Entry Drill](/tutorial/ict-smc/img/03.%20Imbalance/Institutional%20Order%20Flow%20Entry%20Drill.png)
-
-
 
 ## New Week Open Gap (NWOG)
 

@@ -19,6 +19,7 @@ Kaiyn Website is a multilingual marketing site for the Kaiyn crypto trading
 community. It is a statically generated Next.js App Router project with
 locale-prefixed routing, a `base-ui` + `shadcn/ui` (maia theme) component
 system, and a CSS-first Tailwind v4 design layer.
+
 - Live locales: `en` (default, no prefix), `zh-TW`, `zh-CN`
 - Strict TypeScript, formatted and linted by Biome
 - CI gates every PR on typecheck, lint, format check, and production build
@@ -56,6 +57,7 @@ pnpm dev
 ```
 
 Then open:
+
 - English (default): http://localhost:3000
 - Traditional Chinese: http://localhost:3000/zh-TW
 - Simplified Chinese: http://localhost:3000/zh-CN
@@ -118,6 +120,7 @@ public/
 ## Internationalization
 
 Locale configuration lives in [`src/i18n/routing.ts`](./src/i18n/routing.ts):
+
 - `en` — default, served from `/` (no prefix)
 - `zh-TW` — Traditional Chinese, served from `/zh-TW`
 - `zh-CN` — Simplified Chinese, served from `/zh-CN`
@@ -136,6 +139,7 @@ preserve locale prefixes correctly across routes.
 The home page is assembled in
 [`src/app/[locale]/(home)/page.tsx`](./src/app/[locale]/(home)/page.tsx) from
 four sections, each backed by components in `_components/`:
+
 1. **Hero** — `_components/hero/`
 2. **Exchange logos marquee** — `_components/exchange-logos-marquee.tsx`
 3. **Feature cards** — `_components/feature-cards/` (composed of
@@ -151,6 +155,7 @@ flow.
 
 This project follows a strict three-bucket layout (see `CLAUDE.md` and
 `CONTRIBUTING.md` for the full rules):
+
 - `src/components/ui/` — shadcn/ui primitives, plus components installed from
   the [Magic UI](https://magicui.design/) registry via the shadcn CLI (e.g.
   `marquee`, `animated-list`, `text-animate`, `shiny-button`, `avatar-circles`).
@@ -162,6 +167,7 @@ This project follows a strict three-bucket layout (see `CLAUDE.md` and
   `LanguageSwitcher`).
 
 Two project-specific notes:
+
 - **Wrap, don't fork.** When a shadcn component needs customization, build a
   wrapper in `custom/` instead of editing the `ui/` source.
 - **`base-ui` uses `render`, not `asChild`.** The underlying primitive is

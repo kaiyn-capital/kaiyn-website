@@ -19,6 +19,7 @@ Telegram community: https://t.me/kaiyncapital
 ## ICT/SMC Core Axiom
 
 ICT/SMC is a trading framework proposed by The Inner Circle Trader. It is built on the following axiom:
+
 - Price movement does not depend on support and resistance. So-called support and resistance are only market illusions. Every price movement in the market is controlled behind the scenes by an invisible hand known as the **_Interbank Price Delivery Algorithm (IPDA)_**.
 
 - Smart Money in the market, such as banks and financial institutions, controls price through IPDA in order to extract liquidity from speculative money, or retail traders.

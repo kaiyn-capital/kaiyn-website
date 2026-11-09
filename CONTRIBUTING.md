@@ -21,6 +21,7 @@ pnpm dev
 ```
 
 The dev server runs at `http://localhost:3000`. Locale routes:
+
 - `/` — English (default, no prefix)
 - `/zh-TW` — Traditional Chinese
 - `/zh-CN` — Simplified Chinese
@@ -75,6 +76,7 @@ public/                   Static assets (images, video)
 ### Branches
 
 Create a topic branch from `main`. Use a `type/short-description` form:
+
 - `feat/timeline-step-5`
 - `fix/locale-redirect`
 - `chore/add-basic-ci-pipeline`
@@ -102,6 +104,7 @@ feat(home): add CTA button to hero       # do not include the (home) scope
 Common types: `feat`, `fix`, `refactor`, `docs`, `style`, `test`, `chore`, `ci`, `build`, `perf`.
 
 Guidelines:
+
 - Subject line in lowercase, imperative mood, no trailing period, under 72 characters.
 - One logical change per commit; keep commits atomic.
 - The body (optional) should explain _why_, not _what_ — the diff already shows what changed.
@@ -151,6 +154,7 @@ export function PrimaryButton(props: ComponentProps<typeof Button>) {
 ### Prefer wrapping shadcn over building from scratch
 
 For a new UI primitive:
+
 1. First check whether shadcn has an official equivalent.
 2. If yes, install it: `pnpm dlx shadcn@latest add <name>`. The component lands in `src/components/ui/`. Wrap it in `src/components/custom/`.
 3. If no, compose directly from `@base-ui/react` primitives and place the result in `custom/`.
@@ -182,6 +186,7 @@ The horizontal inset token is defined in `src/app/globals.css`:
 This gives 16px padding on narrow viewports scaling to 40px on wide ones with no breakpoint jumps. Do not apply `env(safe-area-inset-*)` to horizontal gutters — it has no visual effect on pages without `viewport-fit=cover`.
 
 Use `Container` from `src/components/layout/container.tsx` for content alignment. It applies `mx-auto` and `px-(--page-inline)` and exposes three width variants:
+
 - `narrow` — `max-w-3xl` (48rem), for prose
 - `default` — `max-w-7xl` (80rem), for standard landing sections
 - `wide` — `max-w-screen-2xl` (96rem), for feature grids
@@ -209,11 +214,13 @@ For true full-bleed (hero images, color bands), use `<section>` directly without
 ## Internationalization
 
 Locale configuration lives in `src/i18n/routing.ts`. Three locales are supported:
+
 - `en` — default, served from `/` (no prefix)
 - `zh-TW` — Traditional Chinese, served from `/zh-TW`
 - `zh-CN` — Simplified Chinese, served from `/zh-CN`
 
 Page copy is namespaced in:
+
 - `messages/en.json`
 - `messages/zh-TW.json`
 - `messages/zh-CN.json`

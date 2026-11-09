@@ -55,7 +55,7 @@ You do not need to memorize this image. You only need to understand that when yo
     -   The PDA that has this draw on price is what you consider your DOL. DOL should be the element you care about most when trading, because in theory, price's reaction to your DOL directly affects all of your decisions.
 
     > -   If you often watch my charts, you will almost never see me explicitly label DOL. But the concept of DOL is extremely important. You do not have to draw it, but you must have the concept in your mind. In many cases, DOL directly determines your Bias, and this will be mentioned repeatedly later.
-        > - There is a similar concept called **Point of Interest (POI)**, which basically refers to the PDA you are paying attention to. I will not explain too much on it here.
+    > -   There is a similar concept called **Point of Interest (POI)**, which basically refers to the PDA you are paying attention to. I will not explain too much on it here.
 
 -   **Institutional Order Flow (IOF)**: when price is delivering in one direction, same-direction PDAs will keep being respected, while opposing PDAs will keep being broken.
 

@@ -6,21 +6,16 @@
 -   當流動性出現失衡時，聰明錢會引導價格回到失衡區域將遺留的訂單成交（Rebalance）。
 -   當失衡區的流動性被 Rebalance 後，價格將延續原有的傳遞方向繼續運行。
 
-
-
 這段敘述充分解釋了 ICT/SMC 中「價格只以流動性和失衡區作為目標進行位移」的觀念。
 
 如果聰明錢想要獲得利潤，那麼只有兩個動作要做：
+
 1.  掠奪投機資金的停損訂單。
 2.  成交自己未能成交的訂單。
-
-
 
 ## 公允價值缺口 / Fair Value Gap（FVG）
 
 當三根連續的K線出現時，如果第一根K線和第三根K線的引線沒有完全重合，此時我們稱中間區域為**公允價值缺口（Fair Value Gap, FVG）**，這表明了價格在這個區間內存在失衡，演算法會在未來的某一個時刻引導價格回到此處進行 Rebalance。
-
-
 
 >   補充：我們在圖表上會以（＋）代表看漲，（－）代表看跌。
 >
@@ -33,8 +28,6 @@
 > -   Liquidity Void (LV)：流動性缺失。
 > -   Liquidity Gap (LG)：流動性缺口。
 
-
-
 ![Fair Value Gap](/tutorial/ict-smc/img/03.%20Imbalance/Fair%20Value%20Gap.png)
 
 >   FVG 的中線稱為 Consequent Encroachment（CE）。
@@ -45,8 +38,6 @@
 
 **反向公允價值缺口（Inversion Fair Value Gap）**。一般來說 IFVG 的效力會比 FVG 更強。
 
-
-
 ![Inversion Fair Value Gap](/tutorial/ict-smc/img/03.%20Imbalance/Inversion%20Fair%20Value%20Gap.png)
 
 ## 平衡價格區間 / Balance Price Range（BPR）
@@ -55,25 +46,18 @@
 
 ![Balance Price Range](/tutorial/ict-smc/img/03.%20Imbalance/Balance%20Price%20Range.png)
 
-
-
 ## Institutional Order Flow Entry Drill (IOFED)
 
 當行情極度強勢時，可能會存在 FVG 不被有效填補的情況，我們稱為 IOFED。IOFED 的出現必須滿足以下兩個條件：
+
 -   行情出現大幅度 Displacement 並形成 FVG。
 -   價格快速回填 FVG，且**回填幅度不超過 FVG 的 50%**。
-
-
 
 當這種價格行為出現時，我們稱其為 IOFED，意味著此時的價格傳遞**極度強勢**。
 
 >   在某些比較嚴格的定義中，會認為必須在 FVG 形成後的下一根K線立即 Rebalance 並收針才能被稱為 IOFED。
 
-
-
 ![Institutional Order Flow Entry Drill](/tutorial/ict-smc/img/03.%20Imbalance/Institutional%20Order%20Flow%20Entry%20Drill.png)
-
-
 
 ## 新週開盤缺口 / New Week Open Gap（NWOG）
 

@@ -1,6 +1,7 @@
 # 交易區間 / Dealing Range
 
 只要你能找到一個 Swing High 和 Swing Low，那這兩個點之間的價格就能被稱為一個「區間」。這對 Swing High 和 Swing Low 可以是任意兩個點，當然，它們最好是「有意義的」，特別是出現 MSS 後的 Swing Point。以下是幾個我們在交易中時常用到的 Swing Point：
+
 -   上週高點 (Previous Week High, PWH)、上週低點（Previous Week Low）
 -   昨日高點 (Previous Day High, PDH)、昨日低點 (Previous Day Low, PDL)
 -   週一高點 (Monday High)、週一低點 (Monday Low)
@@ -8,21 +9,13 @@
 
 >   其實開盤價也可以作為交易 Setup 的一部分，這點會在之後 PO3 和 Time and Price 兩個章節詳細說明。
 
-
-
 除了以上提到的幾個 Swing Point，任何你找得到的波段高低點都可以作為你的區間 Setup。還是那句話，只要你知道自己在幹嘛，你想怎麼做都可以。
 
-
-
 ![Range](/tutorial/ict-smc/img/06.%20Range/Range.png)
-
-
 
 ## 溢價折價區陣列矩陣 / Premium and Discount Array Matrix（PDA Matrix）
 
 >   這個名字看上去挺唬人，但其實就是整合一下前面的東西，看完你就能理解了。
-
-
 
 ### 溢價折價區 / Premium and Discount (P/D)
 
@@ -40,8 +33,6 @@
 
 這張圖不需要記，你只需要知道當你拉出一個區間時，區間內會存在大量 PDA 由上到下排列，擁有這個概念就足夠了。PDA的概念十分重要，在接下來的章節中會被反覆提起。
 
-
-
 ## 內部流動性 & 外部流動性 / Internal Range Liquidity (IRL) & External Range Liquidity (ERL)
 
 -   **外部流動性 / External Range Liquidity (ERL)**：指舊的高點或低點（old high、old low），可以簡單理解成 Liquidity。
@@ -55,15 +46,13 @@
     -   此時，那個對價格存在吸引力的 PDA 就會是你認為的 DOL，DOL 應該是你在交易時最關注的元素，因為理論上價格對你的 DOL 的反應會直接影響你的所有決策。
 
     > -   如果你經常看我畫圖，你幾乎不會在我的圖表上看到我標記出 DOL。但 DOL 的概念非常重要，你可以不把它畫出來，但這個概念你必須有。因為它在很多時候 DOL 會直接決定你的 Bias，這在後面會不斷地提及。
-        > - 有一個類似的概念叫**感興趣的點位（Point of Interest, POI）**，基本上也是指你所關注的 PDA，在此不過多贅述。
+    > -   有一個類似的概念叫**感興趣的點位（Point of Interest, POI）**，基本上也是指你所關注的 PDA，在此不過多贅述。
 
 -   **機構訂單流（Institutional Order Flow, IOF）**：當價格在進行單方向傳遞時，同向的 PDA 會不斷地被尊重，反向的 PDA 會不斷地被突破。
 
 ![ERL & IRL](/tutorial/ict-smc/img/06.%20Range/ERL%20%26%20IRL.png)
 
 >   標準的機構訂單流和 ERL / IRL 的實例。
-
-
 
 ## 最佳進場區間 / Optimal Trade Entry（OTE）
 
@@ -72,9 +61,8 @@
 -   OTE 也可以幫助你尋找你的出場目標位，當然，這一切都必須搭配 DOL、PDA 和前面提及的各種概念。
 -   **最後，切記不要在脫離其他概念的場景下使用 OTE，它只是一個輔助工具。**
 
-
-
 ![OTE](/tutorial/ict-smc/img/06.%20Range/OTE.png)
+
 -   **1**：波段起點。
 -   **0**：波段終點（Retracement 開始的 Swing Point）。
 -   **0.5**：波段區間的 EQ。

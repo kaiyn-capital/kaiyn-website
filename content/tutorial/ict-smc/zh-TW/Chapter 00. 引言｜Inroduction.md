@@ -19,6 +19,7 @@ Telegram 討論群：https://t.me/kaiyncapital
 ## ICT/SMC 理論公設
 
 ICT/SMC 是一套由 The Inner Circle Trader 提出的交易理論，該交易理論建立在以下幾個公設之上：
+
 - 價格的移動不依賴於支撐與阻力，所謂支撐與阻力只是市場的假象。市場中價格的所有行為都由一隻看不見的手在背後進行操縱，這被稱為***銀行間價格傳遞演算法（Interbank Price Delivery Algorithm, IPDA）***。
 
 - 市場上的聰明錢（例如銀行等金融機構）透過 IPDA 控制價格，借此掠奪投機資金（散戶資金）。
